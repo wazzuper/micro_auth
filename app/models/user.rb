@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class User < Sequel::Model
-  NAME_FORMAT = %r{\A\w+\z}
+  NAME_FORMAT = %r{\A[\w\s]+\z}
 
   plugin :secure_password, include_validations: false
   plugin :association_dependencies
