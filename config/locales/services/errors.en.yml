@@ -1,0 +1,9 @@
+en:
+  services:
+    errors:
+      user_sessions:
+        create_service:
+          unauthorized: "Session can't be created"
+      auth:
+        fetch_user_service:
+          forbidden: 'Resource access limited'

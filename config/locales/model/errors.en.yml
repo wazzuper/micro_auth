@@ -1,0 +1,14 @@
+en:
+  model:
+    errors:
+      user:
+        name:
+          blank: 'Add name'
+          invalid: 'Add name using only characters, digits and underscore symbol'
+        email:
+          blank: 'Add email'
+        password:
+          blank: 'Add password'
+      user_session:
+        uuid:
+          blank: "Uuid can't be blank"
