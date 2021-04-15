@@ -6,3 +6,6 @@ pagination:
   page_size: 10
 app:
   secret: secret
+  rpc: true
+rabbitmq:
+  consumer_pool: 10
