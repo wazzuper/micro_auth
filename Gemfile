@@ -3,6 +3,7 @@
 source 'https://rubygems.org'
 
 gem 'activesupport', '~> 6.1.3', require: false
+gem 'bunny', '~> 2.17.0'
 gem 'config', '~> 3.0.0'
 gem 'dry-initializer', '~> 3.0.4'
 gem 'dry-validation', '~> 1.6.0'
@@ -17,6 +18,7 @@ gem 'sinatra-contrib', '~> 2.1.0'
 gem 'sequel', '~> 5.42.0'
 gem 'sequel-seed', '~> 1.1.2'
 gem 'sequel_secure_password', '~> 0.2.15'
+gem 'pry'
 
 group :test do
   gem 'database_cleaner-sequel', '2.0.0'
